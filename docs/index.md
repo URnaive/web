@@ -1,6 +1,5 @@
 # Vernyi_226的个人页面
-你好！这里是Vernyi_226的个人页面
+苏联红海军所属，信赖号驱逐舰，向您问好！
 
-## 目录
-- [我](ME/self.md)
-- [测试页面](TEST/test.md)
+![](index_image/Vernyi.jpg)
+

@@ -8,8 +8,14 @@ site_description: Vernyi_226的个人网站
 nav:
   - 关于我:
     - ME/self.md
-  - 测试页面:
-    - TEST/test.md
+  - 课内学习记录:
+    - LEARN_withinclass/index.md
+  - 课外学习记录:
+    - LEARN_beyondclass/index.md
+  - 二刺螈杂谈:
+    - ACGN/index.md
+  - 随缘记的日记:
+    - DIARY/index.md
 
 # 视觉设置
 theme:
