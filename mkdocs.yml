@@ -1,0 +1,27 @@
+# 网站基本信息
+site_name: Vernyi_226的个人网站
+site_url: https://urnaive.github.io
+site_author: 晋秦
+site_description: Vernyi_226的个人网站
+
+# 页面结构
+nav:
+  - 关于我:
+    - ME/self.md
+  - 测试页面:
+    - TEST/test.md
+
+# 视觉设置
+theme:
+  name: material
+  palette:
+    primary: teal
+    accent: deep_purple
+  features:
+    - navigation.tabs
+    - navigation.top
+    - navigation.indexes
+  language: zh
+
+# 版权声明
+copyright: 晋秦 CC-BY-4.0
