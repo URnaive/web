@@ -11,7 +11,15 @@ nav:
   - 课内学习记录:
     - LEARN_withinclass/index.md
     - 线性代数:
-      - LEARN_withinclass/LINEAR_ALGEBRA/1week1lesson.md
+      - LEARN_withinclass/LINEAR_ALGEBRA/week1p1.md
+    - 工科数学分析:
+      - LEARN_withinclass/MATHEMATICAL_ANALYSIS/week1p1.md
+    - 大学英语:
+      - LEARN_withinclass/ENGLISH/week1.md
+    - C++:
+      - LEARN_withinclass/CPP/week1.md
+    - 中国近现代史纲要:
+      - LEARN_withinclass/CHINESE_HISTORY/1.md
   - 课外学习记录:
     - LEARN_beyondclass/index.md
   - 二刺螈杂谈:
