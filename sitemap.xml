@@ -6,12 +6,27 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://urnaive.github.io/ME/self/</loc>
+         <loc>https://urnaive.github.io/ACGN/</loc>
          <lastmod>2023-09-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://urnaive.github.io/TEST/test/</loc>
+         <loc>https://urnaive.github.io/DIARY/</loc>
+         <lastmod>2023-09-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://urnaive.github.io/LEARN_beyondclass/</loc>
+         <lastmod>2023-09-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://urnaive.github.io/LEARN_withinclass/</loc>
+         <lastmod>2023-09-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://urnaive.github.io/ME/self/</loc>
          <lastmod>2023-09-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
