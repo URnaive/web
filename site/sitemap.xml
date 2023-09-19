@@ -26,7 +26,27 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://urnaive.github.io/LEARN_withinclass/LINEAR_ALGEBRA/1week1lesson/</loc>
+         <loc>https://urnaive.github.io/LEARN_withinclass/CHINESE_HISTORY/1/</loc>
+         <lastmod>2023-09-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://urnaive.github.io/LEARN_withinclass/CPP/week1/</loc>
+         <lastmod>2023-09-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://urnaive.github.io/LEARN_withinclass/ENGLISH/week1/</loc>
+         <lastmod>2023-09-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://urnaive.github.io/LEARN_withinclass/LINEAR_ALGEBRA/week1p1/</loc>
+         <lastmod>2023-09-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://urnaive.github.io/LEARN_withinclass/MATHEMATICAL_ANALYSIS/week1p1/</loc>
          <lastmod>2023-09-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
