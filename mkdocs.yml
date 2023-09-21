@@ -8,16 +8,10 @@ site_description: Vernyi_226的个人网站
 nav:
   - 关于我:
     - ME/self.md
-  - 课内学习记录:
-    - LEARN_withinclass/index.md
-    - 线性代数:
-      - LEARN_withinclass/LINEAR_ALGEBRA/w1.md
-    - 工科数学分析:
-      - LEARN_withinclass/MATHEMATICAL_ANALYSIS/w1.md
-    - C++:
-      - LEARN_withinclass/CPP/w1.md
-  - 课外学习记录:
-    - LEARN_beyondclass/index.md
+  - 学习记录:
+    - LEARN/index.md
+  - 兴趣爱好:
+    - HOBBY/index.md
   - 二刺螈杂谈:
     - ACGN/index.md
   - 随缘记的日记:
