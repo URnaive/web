@@ -2,47 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://urnaive.github.io/web/</loc>
-         <lastmod>2023-09-20</lastmod>
+         <lastmod>2023-09-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://urnaive.github.io/web/ACGN/</loc>
-         <lastmod>2023-09-20</lastmod>
+         <lastmod>2023-09-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://urnaive.github.io/web/DIARY/</loc>
-         <lastmod>2023-09-20</lastmod>
+         <lastmod>2023-09-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://urnaive.github.io/web/LEARN_beyondclass/</loc>
-         <lastmod>2023-09-20</lastmod>
+         <loc>https://urnaive.github.io/web/HOBBY/</loc>
+         <lastmod>2023-09-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://urnaive.github.io/web/LEARN_withinclass/</loc>
-         <lastmod>2023-09-20</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://urnaive.github.io/web/LEARN_withinclass/CPP/w1/</loc>
-         <lastmod>2023-09-20</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://urnaive.github.io/web/LEARN_withinclass/LINEAR_ALGEBRA/w1/</loc>
-         <lastmod>2023-09-20</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://urnaive.github.io/web/LEARN_withinclass/MATHEMATICAL_ANALYSIS/w1/</loc>
-         <lastmod>2023-09-20</lastmod>
+         <loc>https://urnaive.github.io/web/LEARN/</loc>
+         <lastmod>2023-09-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://urnaive.github.io/web/ME/self/</loc>
-         <lastmod>2023-09-20</lastmod>
+         <lastmod>2023-09-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
