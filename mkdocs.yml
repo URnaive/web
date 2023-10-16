@@ -8,15 +8,11 @@ site_description: Vernyi_226的个人网站
 nav:
   - 关于我:
     - ME/self.md
-  - 学习记录:
-    - LEARN/index.md
-  - 兴趣爱好:
-    - HOBBY/index.md
-  - 二刺螈杂谈:
+  - 二次元:
     - ACGN/index.md
     - ACGN/20231015.md
-  - 随缘日记:
-    - DIARY/index.md
+  - 非二次元:
+    - OTHER/index.md
 
 # 视觉设置
 theme:
