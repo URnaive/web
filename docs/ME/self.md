@@ -32,6 +32,6 @@
 - Github:[Vernyi_226](https://github.com/URnaive)
 ### 本命角色
 - KanColle:響/Верный[（点击这里查看她的一生）](https://bbs.nga.cn/read.php?tid=15838656)
-- 少女前线:暂无
+- 少女前线:404小队（含UMP45/HK416/UMP9/G11）
 - 东方Project:暂无
 - 铁道少女Project:暂无
