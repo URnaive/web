@@ -2,37 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://urnaive.github.io/web/</loc>
-         <lastmod>2023-10-15</lastmod>
+         <lastmod>2023-10-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://urnaive.github.io/web/ACGN/</loc>
-         <lastmod>2023-10-15</lastmod>
+         <lastmod>2023-10-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://urnaive.github.io/web/ACGN/20231015/</loc>
-         <lastmod>2023-10-15</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://urnaive.github.io/web/DIARY/</loc>
-         <lastmod>2023-10-15</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://urnaive.github.io/web/HOBBY/</loc>
-         <lastmod>2023-10-15</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://urnaive.github.io/web/LEARN/</loc>
-         <lastmod>2023-10-15</lastmod>
+         <lastmod>2023-10-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://urnaive.github.io/web/ME/self/</loc>
-         <lastmod>2023-10-15</lastmod>
+         <lastmod>2023-10-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://urnaive.github.io/web/OTHER/</loc>
+         <lastmod>2023-10-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
