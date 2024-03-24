@@ -4,13 +4,12 @@
 ![](portrait/image1.jpg)
 *2023.7.31,拍摄于东南大学四牌楼校区*
 
-- 2017.9~2020.6 嘉兴一中实验学校(初中部)
 - 2020.9~2023.6 嘉兴市第一中学
-- 2023.9~2027.6 东南大学 信息科学与工程学院 本科毕业 (预计)
+- 2023.9~  东南大学 信息科学与工程学院 本科在读
 ***
 ## 爱好
-- 泛二次元,绘画与Cosplay略有兴致;
-- 编程.但学校C++作业永远做不明白;
+- 泛二次元,绘画与Cos略有兴致;
+- 编程.但学校C++作业永远做不来;
 - 游戏.KanColle/Unturned/Cities:Skylines/Euro Truck Simulator 2/Minecraft;
 - 俄/苏文化.包括但不限于语言/历史/音乐;
 - 旅游/轨交铁道/天文地理.
@@ -22,8 +21,8 @@
 ***
 ## 网上
 ### 社交账号
-- QQ:178088162
-- 邮箱:213232249@seu.edu.cn
+- QQ:2267893746
+- 邮箱:hibiki@seu.edu.cn
 - bilibili:[黄素腺嘌呤二核苷酸](https://space.bilibili.com/196108143)
 - 百度贴吧:[老天爷给我名字](https://tieba.baidu.com/home/main?id=tb.1.60c7a8ec.TpxeasnuRtzAyhW3t-SVMQ&fr=userbar)
 - Github:[Vernyi_226](https://github.com/URnaive)
