@@ -1,8 +1,8 @@
 # 网站基本信息
-site_name: Vernyi_226的个人网站
+site_name: HibikiNJ的个人网站
 site_url: https://urnaive.github.io/web
-site_author: 晋秦
-site_description: Vernyi_226的个人网站
+site_author: Hibiki@Верный
+site_description: HibikiNJ的个人网站
 
 # 页面结构
 nav:
@@ -17,6 +17,7 @@ nav:
     - OTHER/20240310.md
     - OTHER/20240321Fir.md
     - OTHER/20240321Sec.md
+    - OTHER/20240421.md
 
 # 视觉设置
 theme:
@@ -31,7 +32,7 @@ theme:
   language: zh
 
 # 版权声明
-copyright: 晋秦 CC-BY-4.0
+copyright: HibikiNJ CC-BY-4.0
 
 # LaTeX数学公式支持与取消翻页按钮（该代码块来自THU杨希杰）
 extra_javascript:

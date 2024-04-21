@@ -4,8 +4,8 @@
 ![](portrait/image1.jpg)
 *2023.7.31,拍摄于东南大学四牌楼校区*
 
-- 2020.9~2023.6 嘉兴市第一中学
-- 2023.9~  东南大学 信息科学与工程学院 本科在读
+- 2020.9~2023.6 浙北某中学
+- 2023.9~  东南大学本科在读
 ***
 ## 爱好
 - 泛二次元,绘画与Cos略有兴致;
@@ -15,14 +15,13 @@
 - 旅游/轨交铁道/天文地理.
 ***
 ## 目标
-- 信息工程专业保本校;
 - 绘画入门;
 - 掌握基本计算机应用方法,丰富大学生活.
 ***
 ## 网上
 ### 社交账号
 - QQ:2267893746
-- 邮箱:hibiki@seu.edu.cn
+- 电邮:hibikinj@gmail.com
 - bilibili:[黄素腺嘌呤二核苷酸](https://space.bilibili.com/196108143)
 - 百度贴吧:[老天爷给我名字](https://tieba.baidu.com/home/main?id=tb.1.60c7a8ec.TpxeasnuRtzAyhW3t-SVMQ&fr=userbar)
 - Github:[Vernyi_226](https://github.com/URnaive)
