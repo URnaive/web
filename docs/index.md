@@ -1,5 +1,4 @@
-# Vernyi_226的个人页面
-信赖号祝您2024年快乐！
+中国铁路上海局集团，祝您旅途愉快！
 
-![](index_image/Vernyi.jpg)
+![](icon.png)
 
