@@ -2,57 +2,72 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://urnaive.github.io/web/</loc>
-         <lastmod>2024-08-20</lastmod>
+         <lastmod>2024-09-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://urnaive.github.io/web/ACGN/</loc>
-         <lastmod>2024-08-20</lastmod>
+         <lastmod>2024-09-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://urnaive.github.io/web/ACGN/20231015/</loc>
-         <lastmod>2024-08-20</lastmod>
+         <lastmod>2024-09-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://urnaive.github.io/web/ACGN/20240317/</loc>
-         <lastmod>2024-08-20</lastmod>
+         <lastmod>2024-09-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://urnaive.github.io/web/ME/self/</loc>
-         <lastmod>2024-08-20</lastmod>
+         <lastmod>2024-09-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://urnaive.github.io/web/OTHER/</loc>
-         <lastmod>2024-08-20</lastmod>
+         <lastmod>2024-09-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://urnaive.github.io/web/OTHER/20240310/</loc>
-         <lastmod>2024-08-20</lastmod>
+         <lastmod>2024-09-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://urnaive.github.io/web/OTHER/20240321_1/</loc>
-         <lastmod>2024-08-20</lastmod>
+         <lastmod>2024-09-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://urnaive.github.io/web/OTHER/20240321_2/</loc>
-         <lastmod>2024-08-20</lastmod>
+         <lastmod>2024-09-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://urnaive.github.io/web/OTHER/20240421/</loc>
-         <lastmod>2024-08-20</lastmod>
+         <lastmod>2024-09-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://urnaive.github.io/web/OTHER/20240820/</loc>
-         <lastmod>2024-08-20</lastmod>
+         <lastmod>2024-09-23</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://urnaive.github.io/web/OTHER/AnaElec/1/</loc>
+         <lastmod>2024-09-23</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://urnaive.github.io/web/OTHER/AnaElec/2/</loc>
+         <lastmod>2024-09-23</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://urnaive.github.io/web/OTHER/AnaElec/3/</loc>
+         <lastmod>2024-09-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
