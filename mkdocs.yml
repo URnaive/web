@@ -19,6 +19,10 @@ nav:
     - OTHER/20240321_2.md
     - OTHER/20240421.md
     - OTHER/20240820.md
+  - 模电专栏:
+    - OTHER/AnaElec/1.md
+    - OTHER/AnaElec/2.md
+    - OTHER/AnaElec/3.md
 # 视觉设置
 theme:
   name: material
