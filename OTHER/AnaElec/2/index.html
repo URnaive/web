@@ -52,9 +52,9 @@
       
     
     
-      <link rel="stylesheet" href="../../../mkdocs/css/no-footer.css">
+      <link rel="stylesheet" href="../../../css/no-footer.css">
     
-      <link rel="stylesheet" href="../../../mkdocs/css/unordered-list-symbols.css">
+      <link rel="stylesheet" href="../../../css/unordered-list-symbols.css">
     
     <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -1130,22 +1130,22 @@
 
 <h1 id="2-pn">模电笔记第一周2-PN结</h1>
 <h2 id="pn">PN结物理性质</h2>
-<p>通过掺杂杂质，将一块P型半导体的一部分转化为N型，或者反之，则形成<strong>PN结</strong>.P区浓度大于N区为$\text{P}^+\text N结$，反之为$\text{PN}^+结$.</p>
+<p>通过掺杂杂质，将一块P型半导体的一部分转化为N型，或者反之，则形成<strong>PN结</strong>.P区浓度大于N区为<span class="arithmatex">\(\text{P}^+\text N结\)</span>，反之为<span class="arithmatex">\(\text{PN}^+结\)</span>.</p>
 <h3 id="_1">阻挡层</h3>
 <p>PN结中P区与N区分界线两侧，由于两区的多子各自扩散形成的区域，此时P/N分界线的扩散与漂移运动动态平衡，两者产生的电流相抵消.</p>
 <h4 id="_2">内建电位差</h4>
 <p>动态平衡时，内建电场形成的电位差，方向由N区指向P区.事实上是不同半导体接触时的接触电位差.
 [V_B≈V_T\ln \frac{N_aN_d}{n_i^2}]
 [V_T=\frac{kT}{q}]
-$V_T$称为<strong>热电压</strong>，计算表明室温下$V_T=25.89\text{mV}≈26\text{mV}$.
-温度每升高$1℃$，内建电位差减小$2.5\text{mV}$.</p>
+<span class="arithmatex">\(V_T\)</span>称为<strong>热电压</strong>，计算表明室温下<span class="arithmatex">\(V_T=25.89\text{mV}≈26\text{mV}\)</span>.
+温度每升高<span class="arithmatex">\(1℃\)</span>，内建电位差减小<span class="arithmatex">\(2.5\text{mV}\)</span>.</p>
 <h4 id="_3">阻挡层宽度</h4>
-<p>以P区N区交界为原点作$x$轴，$x_n$为N区阻挡层宽度，$x_p$为P区阻挡层宽度，满足：
+<p>以P区N区交界为原点作<span class="arithmatex">\(x\)</span>轴，<span class="arithmatex">\(x_n\)</span>为N区阻挡层宽度，<span class="arithmatex">\(x_p\)</span>为P区阻挡层宽度，满足：
 [\frac{x_n}{x_p}=\frac{N_a}{N_d}]
 即：阻挡层任意一侧宽度和该侧掺杂浓度成反比例.
 动态平衡下阻挡层合宽度为：
 [l_0=(\frac{2\epsilon}{q}V_B\frac{N_a+N_d}{N_aN_d})^{\frac{1}{2}}]
-即：$l_0\propto \sqrt{V_B}$.</p>
+即：<span class="arithmatex">\(l_0\propto \sqrt{V_B}\)</span>.</p>
 <h2 id="pn_1">PN结伏安特性</h2>
 <h3 id="_4">正向</h3>
 <p>外加电源正极接P区、负极接N区，此时：
@@ -1157,16 +1157,16 @@ $V_T$称为<strong>热电压</strong>，计算表明室温下$V_T=25.89\text{mV}
 - 阻挡层宽度增加
 - 离子电荷量增加
 - 漂移加强</p>
-<p>反向电流几乎完全由少子漂移形成，与反偏电压无关，故又称为<strong>反向饱和电流</strong>（$I_s$）.
-$I_s$随温度升高而增大，也与PN结的截面积成正比例关系.</p>
+<p>反向电流几乎完全由少子漂移形成，与反偏电压无关，故又称为<strong>反向饱和电流</strong>（<span class="arithmatex">\(I_s\)</span>）.
+<span class="arithmatex">\(I_s\)</span>随温度升高而增大，也与PN结的截面积成正比例关系.</p>
 <h3 id="_6">伏安特性</h3>
 <p>理论证明，PN结的正偏/反偏特性可统一为以下公式：
 [I=I_s(e^{\frac{V}{V_T}}-1)]
 其中自变量V根据正偏或反偏取相应的正值或负值.
-由于$I&gt;&gt;I_s$即：
+由于<span class="arithmatex">\(I&gt;&gt;I_s\)</span>即：
 [V≈V_T\ln \frac{I}{I_s}=2.3V_T\lg \frac{I}{I_s}]
 <strong>（定量掌握以上公式）</strong>
-基于加正偏时PN结伏安曲线，工程上定义<strong>导通电压</strong>$V_{on}$,认为正向电压大于导通电压时PN结导通，反之截止.</p>
+基于加正偏时PN结伏安曲线，工程上定义<strong>导通电压</strong><span class="arithmatex">\(V_{on}\)</span>,认为正向电压大于导通电压时PN结导通，反之截止.</p>
 <h2 id="pn_2">PN结击穿特性（以下特性，全部作定性了解）</h2>
 <h3 id="_7">雪崩击穿</h3>
 <p>随着反向电压增大到一定数值，漂移的载流子动能足以将共价键价电子碰撞出来，反向电流由接近0开始急剧增大.主要发生在掺杂浓度低的PN结中，击穿电压较高.击穿电压随着掺杂浓度降低而增大.</p>
@@ -1174,7 +1174,7 @@ $I_s$随温度升高而增大，也与PN结的截面积成正比例关系.</p>
 <p>通过阻挡层内建电位差将阻挡层内中性原子的价电子直接从共价键中拉出来，反向电流剧增.主要发生在掺杂浓度高的PN结中，击穿电压较低，击穿电压随着掺杂浓度增加而降低.
 可以利用PN结的的击穿特性制作稳压二极管，用于产生稳定电压.</p>
 <h2 id="pn_3">PN结温度特性</h2>
-<p>温度上升，反向饱和电流$I_s$增加，导通电压$V_{on}$降低.温度每升高10℃，反向饱和电流约增加一倍，温度每升高1℃，导通电压降低约$2.5\text{mV}$.</p>
+<p>温度上升，反向饱和电流<span class="arithmatex">\(I_s\)</span>增加，导通电压<span class="arithmatex">\(V_{on}\)</span>降低.温度每升高10℃，反向饱和电流约增加一倍，温度每升高1℃，导通电压降低约<span class="arithmatex">\(2.5\text{mV}\)</span>.</p>
 <h3 id="_9">击穿电压的温度特性</h3>
 <p><strong>雪崩击穿：</strong>
 温度升高，晶格热振动加剧，载流子碰撞晶格前的路径变短，能量减少，应加大反向电压,才能发生雪崩击穿，击穿电压具有正的温度系数 <strong>（击穿电压随温度上升而增）</strong>.
@@ -1186,20 +1186,20 @@ $I_s$随温度升高而增大，也与PN结的截面积成正比例关系.</p>
 <h3 id="_10">势垒电容</h3>
 <p>阻挡层内离子电荷随外加电压变化发生非线性变化.变化规律为：
 [C_T=\frac{C_T(0)}{(1-\frac{V}{V_B})^n}]
-$n$为常数（变容指数），与PN结自身工艺有关.
+<span class="arithmatex">\(n\)</span>为常数（变容指数），与PN结自身工艺有关.
 （参考：突变结指数为1/2，渐变结指数为1/3，超突变结指数1/2至6）</p>
 <h3 id="_11">扩散电容</h3>
 <p>外加电压变化同时改变阻挡层外中性区内贮存的非平衡载流子量，相当于在PN结上并联了一个电容.变化规律为：
 [C_D=k_D(I+I_s)]
-$k_D$为一常数，和PN结两端掺杂浓度有关.
-$C_D$在反偏时趋近于0，正偏时可以很大.</p>
-<p>PN结总<strong>增量</strong>电容：$C_j=C_T+C_D$</p>
+<span class="arithmatex">\(k_D\)</span>为一常数，和PN结两端掺杂浓度有关.
+<span class="arithmatex">\(C_D\)</span>在反偏时趋近于0，正偏时可以很大.</p>
+<p>PN结总<strong>增量</strong>电容：<span class="arithmatex">\(C_j=C_T+C_D\)</span></p>
 <h2 id="pn_5">PN结开关特性</h2>
 <p>理想状态下，PN结正偏时呈低阻特性，反偏时呈高阻特性（近似视作断路），具有理想开关的特性.
 但实际二极管和理想开关有以下差异：
 - 正偏时电压大于导通电压方可导通;
 - 负载电阻远大于二极管导通电阻时，二极管导通电阻方可忽略不计;
-- 二极管反偏时电流不严格为0，为反向饱和电流$I_s$;
+- 二极管反偏时电流不严格为0，为反向饱和电流<span class="arithmatex">\(I_s\)</span>;
 - 二极管的导通和截止需要时间，并非瞬时发生.</p>
 
 
@@ -1253,7 +1253,7 @@ $C_D$在反偏时趋近于0，正偏时可以很大.</p>
     
       <script src="../../../assets/javascripts/bundle.dff1b7c8.min.js"></script>
       
-        <script src="../../../mkdocs/javascripts/mathjax.js"></script>
+        <script src="../../../javascripts/mathjax.js"></script>
       
         <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
       

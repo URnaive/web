@@ -50,9 +50,9 @@
       
     
     
-      <link rel="stylesheet" href="../../../mkdocs/css/no-footer.css">
+      <link rel="stylesheet" href="../../../css/no-footer.css">
     
-      <link rel="stylesheet" href="../../../mkdocs/css/unordered-list-symbols.css">
+      <link rel="stylesheet" href="../../../css/unordered-list-symbols.css">
     
     <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -1009,16 +1009,16 @@
 <h1 id="3-">模电笔记第一周3-二极管分析法</h1>
 <p>晶体二极管的数学模型如下：
 [V=Ir_s+nV_T\ln{1+\frac{I}{I_s}}]
-$n$称为非理想化因子，在电流正常情况下约为1，电流过大或过小时约为2.
-$r_s$是PN结内部实际存在的体电阻.
+<span class="arithmatex">\(n\)</span>称为非理想化因子，在电流正常情况下约为1，电流过大或过小时约为2.
+<span class="arithmatex">\(r_s\)</span>是PN结内部实际存在的体电阻.
 晶体二极管的伏安特性曲线在正向电流较小时呈指数变化，较大时呈线性变化.</p>
 <h2 id="_1">等效电路模型</h2>
 <h3 id="_2">大信号电路模型</h3>
-<p>用于直流电路分析，将二极管拆封为理想二极管$D$，二极管导通电阻$R_D$，以导通电压$V_{D(on)}$为大小、和既有电压方向相反的电源$V$。</p>
+<p>用于直流电路分析，将二极管拆封为理想二极管<span class="arithmatex">\(D\)</span>，二极管导通电阻<span class="arithmatex">\(R_D\)</span>，以导通电压<span class="arithmatex">\(V_{D(on)}\)</span>为大小、和既有电压方向相反的电源<span class="arithmatex">\(V\)</span>。</p>
 <h3 id="_3">小信号电路模型</h3>
-<p>用于交流电路分析，将加到二极管上的电压$V$拆分为直流部分$V_Q$和增量电压$\Delta V$，则工作电流$I=I_Q+\Delta I$，$I_Q=I_S(e^{\frac{V_Q}{V_T}}-1)$.
-定义二极管增量电阻$r_j=\frac{V_T}{I_Q}$，则二极管可被拆分为体电阻$r_s$和$r_j$串联的和电阻.若$\Delta V$频率较高，还需要在$r_j$两端并联结电容$C_j$.
-在$|\Delta V|&lt;5.2\text{mV}$的情况下，小信号电路模型产生的误差是可以接受的.</p>
+<p>用于交流电路分析，将加到二极管上的电压<span class="arithmatex">\(V\)</span>拆分为直流部分<span class="arithmatex">\(V_Q\)</span>和增量电压<span class="arithmatex">\(\Delta V\)</span>，则工作电流<span class="arithmatex">\(I=I_Q+\Delta I\)</span>，<span class="arithmatex">\(I_Q=I_S(e^{\frac{V_Q}{V_T}}-1)\)</span>.
+定义二极管增量电阻<span class="arithmatex">\(r_j=\frac{V_T}{I_Q}\)</span>，则二极管可被拆分为体电阻<span class="arithmatex">\(r_s\)</span>和<span class="arithmatex">\(r_j\)</span>串联的和电阻.若<span class="arithmatex">\(\Delta V\)</span>频率较高，还需要在<span class="arithmatex">\(r_j\)</span>两端并联结电容<span class="arithmatex">\(C_j\)</span>.
+在<span class="arithmatex">\(|\Delta V|&lt;5.2\text{mV}\)</span>的情况下，小信号电路模型产生的误差是可以接受的.</p>
 <h2 id="_4">晶体二极管电路分析方法</h2>
 <h3 id="_5">图解法</h3>
 <p>看图求交点.没什么可说的.</p>
@@ -1028,7 +1028,7 @@ $r_s$是PN结内部实际存在的体电阻.
 <h3 id="_8">整流滤波电路</h3>
 <p>在电路中直接串联二极管，利用理想二极管开关特性滤除某一方向的波.</p>
 <h3 id="_9">稳压电路</h3>
-<p>在电路中并联稳压二极管，利用其反向导通稳定电压$V_s$几乎不变的特性将电压稳定在某一数值.</p>
+<p>在电路中并联稳压二极管，利用其反向导通稳定电压<span class="arithmatex">\(V_s\)</span>几乎不变的特性将电压稳定在某一数值.</p>
 <h3 id="_10">限幅和钳位电路</h3>
 <p>使用二极管 <strong>（不是稳压管！）</strong> 并联在所需限幅的信号源两端，可以将输出端的信号限制在Max和Min之间（双向限幅电路）
 单向限幅电路只能设定输出端的Max或者Min.
@@ -1036,7 +1036,7 @@ $r_s$是PN结内部实际存在的体电阻.
 [R_LC&gt;10T]这样才能使得电压不突变.</p>
 <h3 id="3">3输入二极管与门和或门</h3>
 <p>记住结论：
-与门电路干路电位为电压最低的一端加上$V_{Don}$，或门电路干路电位为电压最高的一端减去$V_{Don}$.</p>
+与门电路干路电位为电压最低的一端加上<span class="arithmatex">\(V_{Don}\)</span>，或门电路干路电位为电压最高的一端减去<span class="arithmatex">\(V_{Don}\)</span>.</p>
 
 
 
@@ -1089,7 +1089,7 @@ $r_s$是PN结内部实际存在的体电阻.
     
       <script src="../../../assets/javascripts/bundle.dff1b7c8.min.js"></script>
       
-        <script src="../../../mkdocs/javascripts/mathjax.js"></script>
+        <script src="../../../javascripts/mathjax.js"></script>
       
         <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
       
