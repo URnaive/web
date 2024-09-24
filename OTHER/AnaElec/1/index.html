@@ -965,7 +965,9 @@
 <h2 id="_2">热平衡载流子浓度</h2>
 <p>温度一定时，本征激发与复合在某一<strong>热平衡载流子浓度值</strong>达到动态平衡。
 载流子（自由电子或空穴）浓度值的计算公式为：
-[n_i=AT^{\frac{3}{2}}e^{\frac{-E_{g0}}{2kT}}]
+$$
+n_i=AT^{\frac{3}{2}}e^{\frac{-E_{g0}}{2kT}}
+$$
 （单位：<span class="arithmatex">\(\text{cm}^{-3}\)</span>）
 <span class="arithmatex">\(A\)</span>为常数（硅为<span class="arithmatex">\(3.88\times10^{16} \text{cm}^{-3}\cdot \text K^{-3/2}\)</span>，锗为<span class="arithmatex">\(1.76\times10^{16} \text{cm}^{-3}\cdot \text K^{-3/2}\)</span>）.
 <span class="arithmatex">\(k\)</span>为玻尔兹曼常数（<span class="arithmatex">\(8.63\times10^{-5}\text{eV/K或}1.38\times10^{-23}\text{J/K}\)</span>）.
@@ -979,11 +981,18 @@
 <h3 id="_4">多子与少子热平衡浓度遵从的规律</h3>
 <ul>
 <li>令自由电子的热平衡浓度值为<span class="arithmatex">\(n_0\)</span>，空穴为<span class="arithmatex">\(p_0\)</span>，本征半导体热平衡浓度值<span class="arithmatex">\(n_i\)</span>，则两者满足：
-[n_0p_0=n_i^{2}]</li>
+$$
+n_0p_0=n_i^{2}
+$$</li>
 <li>设施主杂质浓度为<span class="arithmatex">\(N_d\)</span>，受主杂质浓度为<span class="arithmatex">\(N_a\)</span>.受电中性条件约束，在N型半导体中，满足：
-[n_0≈N_d] (空穴在N型半导体中为少子，<span class="arithmatex">\(p_0\)</span>可忽略不计)
+$$
+n_0≈N_d
+$$
+ (空穴在N型半导体中为少子，<span class="arithmatex">\(p_0\)</span>可忽略不计)
 同理，P型半导体满足：
-[p_0≈N_a]</li>
+$$
+p_0≈N_a
+$$</li>
 <li>少子浓度与温度成正相关，当温度升高到<span class="arithmatex">\(n_i≈N_a\)</span>或<span class="arithmatex">\(n_i≈N_d\)</span>时，杂质半导体在效果上恢复为本征半导体.</li>
 <li><strong>善用“因浓度过小而忽略不计”这一思想.</strong></li>
 </ul>
@@ -991,9 +1000,15 @@
 <h3 id="_6">漂移</h3>
 <p>半导体两端被施加电场后，载流子根据其电性进行顺电场或逆电场运动，称为<strong>漂移</strong>，由此产生<strong>漂移电流</strong>.
 自由电子和空穴的漂移电流密度（通过单位截面积的电流大小）可表示为：
-[J_{pt}=qp{\mu}<em>pE]
-[J</em>{nt}=-(-q)n{\mu}<em>nE]
-[J</em>{t}=J_{pt}+J_{nt}=q(p{\mu}_p+n{\mu}_n)E]
+$$
+J_{pt}=qp{\mu}_pE
+$$</p>
+<div class="arithmatex">\[
+J_{nt}=-(-q)n{\mu}_nE
+\]</div>
+<p>$$
+J_{t}=J_{pt}+J_{nt}=q(p{\mu}_p+n{\mu}_n)E
+$$
 (单位：<span class="arithmatex">\(\text A\cdot \text m^{-2}\)</span>)
 <span class="arithmatex">\(p\)</span>和<span class="arithmatex">\(n\)</span>分别为空穴和自由电子的浓度.
 <span class="arithmatex">\(q\)</span>为元电荷.
@@ -1003,12 +1018,18 @@
 硅：<span class="arithmatex">\({\mu}_n=1500\text{cm}^2/\text V\cdot \text s,{\mu}_p=600\text{cm}^2/\text V\cdot \text s\)</span>
 锗：<span class="arithmatex">\({\mu}_n=3900\text{cm}^2/\text V\cdot \text s,{\mu}_p=1900\text{cm}^2/\text V\cdot \text s\)</span>）</p>
 <p>半导体材料呈现的电导率为：
-[\sigma=\frac{1}{\rho}=\frac{J_t}{E}=q(p{\mu}_p+n{\mu}_n)]</p>
+$$
+\sigma=\frac{1}{\rho}=\frac{J_t}{E}=q(p{\mu}_p+n{\mu}_n)
+$$</p>
 <h3 id="_7">扩散</h3>
 <p>打破热平衡后的半导体内任一假想面，由于载流子浓度差在两侧间产生的定向运动为<strong>扩散</strong>
 设自由电子或空穴按照<span class="arithmatex">\(n(x)\)</span>和<span class="arithmatex">\(p(x)\)</span>的规律变化，则扩散电流密度为：
-[J_{nd}=qD_n\frac{\text{d}n(x)}{\text{d}x}]
-[J_{pd}=-qD_p\frac{\text{d}p(x)}{\text{d}x}]
+$$
+J_{nd}=qD_n\frac{\text{d}n(x)}{\text{d}x}
+$$</p>
+<p>$$
+J_{pd}=-qD_p\frac{\text{d}p(x)}{\text{d}x}
+$$
 公式中<span class="arithmatex">\(D_n\)</span>和<span class="arithmatex">\(D_p\)</span>为扩散系数，室温中硅半导体内<span class="arithmatex">\(D_n=34\text{cm}^2/\text{s}\)</span>，<span class="arithmatex">\(D_p=13\text{cm}^2/\text{s}\)</span>.
 自由电子扩散方向与浓度减少方向相反，空穴则一致.</p>
 
