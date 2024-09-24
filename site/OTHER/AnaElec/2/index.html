@@ -1135,16 +1135,24 @@
 <p>PN结中P区与N区分界线两侧，由于两区的多子各自扩散形成的区域，此时P/N分界线的扩散与漂移运动动态平衡，两者产生的电流相抵消.</p>
 <h4 id="_2">内建电位差</h4>
 <p>动态平衡时，内建电场形成的电位差，方向由N区指向P区.事实上是不同半导体接触时的接触电位差.
-[V_B≈V_T\ln \frac{N_aN_d}{n_i^2}]
-[V_T=\frac{kT}{q}]
+$$
+V_B≈V_T\ln \frac{N_aN_d}{n_i^2}
+$$</p>
+<p>$$
+V_T=\frac{kT}{q}
+$$
 <span class="arithmatex">\(V_T\)</span>称为<strong>热电压</strong>，计算表明室温下<span class="arithmatex">\(V_T=25.89\text{mV}≈26\text{mV}\)</span>.
 温度每升高<span class="arithmatex">\(1℃\)</span>，内建电位差减小<span class="arithmatex">\(2.5\text{mV}\)</span>.</p>
 <h4 id="_3">阻挡层宽度</h4>
 <p>以P区N区交界为原点作<span class="arithmatex">\(x\)</span>轴，<span class="arithmatex">\(x_n\)</span>为N区阻挡层宽度，<span class="arithmatex">\(x_p\)</span>为P区阻挡层宽度，满足：
-[\frac{x_n}{x_p}=\frac{N_a}{N_d}]
+$$
+\frac{x_n}{x_p}=\frac{N_a}{N_d}
+$$
 即：阻挡层任意一侧宽度和该侧掺杂浓度成反比例.
 动态平衡下阻挡层合宽度为：
-[l_0=(\frac{2\epsilon}{q}V_B\frac{N_a+N_d}{N_aN_d})^{\frac{1}{2}}]
+$$
+l_0=(\frac{2\epsilon}{q}V_B\frac{N_a+N_d}{N_aN_d})^{\frac{1}{2}}
+$$
 即：<span class="arithmatex">\(l_0\propto \sqrt{V_B}\)</span>.</p>
 <h2 id="pn_1">PN结伏安特性</h2>
 <h3 id="_4">正向</h3>
@@ -1161,10 +1169,14 @@
 <span class="arithmatex">\(I_s\)</span>随温度升高而增大，也与PN结的截面积成正比例关系.</p>
 <h3 id="_6">伏安特性</h3>
 <p>理论证明，PN结的正偏/反偏特性可统一为以下公式：
-[I=I_s(e^{\frac{V}{V_T}}-1)]
+$$
+I=I_s(e^{\frac{V}{V_T}}-1)
+$$
 其中自变量V根据正偏或反偏取相应的正值或负值.
 由于<span class="arithmatex">\(I&gt;&gt;I_s\)</span>即：
-[V≈V_T\ln \frac{I}{I_s}=2.3V_T\lg \frac{I}{I_s}]
+$$
+V≈V_T\ln \frac{I}{I_s}=2.3V_T\lg \frac{I}{I_s}
+$$
 <strong>（定量掌握以上公式）</strong>
 基于加正偏时PN结伏安曲线，工程上定义<strong>导通电压</strong><span class="arithmatex">\(V_{on}\)</span>,认为正向电压大于导通电压时PN结导通，反之截止.</p>
 <h2 id="pn_2">PN结击穿特性（以下特性，全部作定性了解）</h2>
@@ -1185,12 +1197,16 @@
 <h2 id="pn_4">PN结电容特性</h2>
 <h3 id="_10">势垒电容</h3>
 <p>阻挡层内离子电荷随外加电压变化发生非线性变化.变化规律为：
-[C_T=\frac{C_T(0)}{(1-\frac{V}{V_B})^n}]
+$$
+C_T=\frac{C_T(0)}{(1-\frac{V}{V_B})^n}
+$$
 <span class="arithmatex">\(n\)</span>为常数（变容指数），与PN结自身工艺有关.
 （参考：突变结指数为1/2，渐变结指数为1/3，超突变结指数1/2至6）</p>
 <h3 id="_11">扩散电容</h3>
 <p>外加电压变化同时改变阻挡层外中性区内贮存的非平衡载流子量，相当于在PN结上并联了一个电容.变化规律为：
-[C_D=k_D(I+I_s)]
+$$
+C_D=k_D(I+I_s)
+$$
 <span class="arithmatex">\(k_D\)</span>为一常数，和PN结两端掺杂浓度有关.
 <span class="arithmatex">\(C_D\)</span>在反偏时趋近于0，正偏时可以很大.</p>
 <p>PN结总<strong>增量</strong>电容：<span class="arithmatex">\(C_j=C_T+C_D\)</span></p>
