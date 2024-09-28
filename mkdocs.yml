@@ -25,6 +25,7 @@ nav:
 # 视觉设置
 theme:
   name: material
+  custom_dir: overrides
   palette:
     primary: teal
     accent: orange
