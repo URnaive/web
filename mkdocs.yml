@@ -27,7 +27,7 @@ theme:
   name: material
   palette:
     primary: teal
-    accent: deep_purple
+    accent: orange
   features:
     - navigation.tabs
     - navigation.top
@@ -51,3 +51,9 @@ extra_javascript:
 extra_css:
   - css/no-footer.css # 不使用底部的翻页
   - css/unordered-list-symbols.css # multiplt unordered list symbols
+extra:
+  social:
+    - type: 'github'
+      link: 'https://github.com/URnaive'
+    - type: 'twitter'
+      link: 'https://twitter.com/DD_Hibiki_1933'

@@ -10,10 +10,11 @@
     - nj:“南京”的汉语拼音首字母;
 - URnaive
     - 源于一位故人的发言;
-## 其他渠道
+## 内网联系渠道
 - 电邮:hibiki@seu.edu.cn
 - bilibili:[核苷酸Medovik](https://space.bilibili.com/196108143)
-- Github:[Vernyi_226](https://github.com/URnaive)
+## 外网联系渠道
+请见友情链接.
 ## 永远的本命
 **響/Верный**
 
