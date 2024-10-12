@@ -22,6 +22,8 @@ nav:
     - OTHER/AnaElec/1.md
     - OTHER/AnaElec/2.md
     - OTHER/AnaElec/3.md
+    - OTHER/AnaElec/4.md
+    - OTHER/AnaElec/5.md
 # 视觉设置
 theme:
   name: material
