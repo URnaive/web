@@ -18,6 +18,8 @@
         <link rel="prev" href="../2/">
       
       
+        <link rel="next" href="../4/">
+      
       
       <link rel="icon" href="../../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.3.1">
@@ -618,6 +620,10 @@
       
         
       
+        
+      
+        
+      
     
     
     <li class="md-nav__item md-nav__item--active md-nav__item--nested">
@@ -821,8 +827,8 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#3" class="md-nav__link">
-    3输入二极管与门和或门
+  <a href="#_11" class="md-nav__link">
+    三输入二极管与门和或门
   </a>
   
 </li>
@@ -836,6 +842,46 @@
   
 </nav>
       
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../4/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    模电笔记第二周1-晶体三极管（甲）
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../5/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    模电笔记第二周2-晶体三极管（乙）
+  </span>
+  
+
+      </a>
     </li>
   
 
@@ -958,8 +1004,8 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#3" class="md-nav__link">
-    3输入二极管与门和或门
+  <a href="#_11" class="md-nav__link">
+    三输入二极管与门和或门
   </a>
   
 </li>
@@ -996,9 +1042,9 @@ $$
 <h3 id="_2">大信号电路模型</h3>
 <p>用于直流电路分析，将二极管拆封为理想二极管<span class="arithmatex">\(D\)</span>，二极管导通电阻<span class="arithmatex">\(R_D\)</span>，以导通电压<span class="arithmatex">\(V_{D(on)}\)</span>为大小、和既有电压方向相反的电源<span class="arithmatex">\(V\)</span>。</p>
 <h3 id="_3">小信号电路模型</h3>
-<p>用于交流电路分析，将加到二极管上的电压<span class="arithmatex">\(V\)</span>拆分为直流部分<span class="arithmatex">\(V_Q\)</span>和增量电压<span class="arithmatex">\(\Delta V\)</span>，则工作电流<span class="arithmatex">\(I=I_Q+\Delta I\)</span>，<span class="arithmatex">\(I_Q=I_S(e^{\frac{V_Q}{V_T}}-1)\)</span>.
-定义二极管增量电阻<span class="arithmatex">\(r_j=\frac{V_T}{I_Q}\)</span>，则二极管可被拆分为体电阻<span class="arithmatex">\(r_s\)</span>和<span class="arithmatex">\(r_j\)</span>串联的和电阻.若<span class="arithmatex">\(\Delta V\)</span>频率较高，还需要在<span class="arithmatex">\(r_j\)</span>两端并联结电容<span class="arithmatex">\(C_j\)</span>.
-在<span class="arithmatex">\(|\Delta V|&lt;5.2\text{mV}\)</span>的情况下，小信号电路模型产生的误差是可以接受的.</p>
+<p>用于交流电路分析，将加到二极管上的电压<span class="arithmatex">\(V\)</span>拆分为直流部分<span class="arithmatex">\(V_Q\)</span>和增量电压<span class="arithmatex">\(\Delta V\)</span>，则工作电流<span class="arithmatex">\(I=I_Q+\Delta I\)</span>，<span class="arithmatex">\(I_Q=I_S(e^{\frac{V_Q}{V_T}}-1)\)</span>.</p>
+<p>定义二极管增量电阻<span class="arithmatex">\(r_j=\frac{V_T}{I_Q}\)</span>，则二极管可被拆分为体电阻<span class="arithmatex">\(r_s\)</span>和<span class="arithmatex">\(r_j\)</span>串联的和电阻.若<span class="arithmatex">\(\Delta V\)</span>频率较高，还需要在<span class="arithmatex">\(r_j\)</span>两端并联结电容<span class="arithmatex">\(C_j\)</span>. <em>（一般地，本书中二极管小信号应用场景不会涉及结电容）</em></p>
+<p>在<span class="arithmatex">\(|\Delta V|&lt;5.2\text{mV}\)</span>的情况下，小信号电路模型产生的误差是可以接受的.</p>
 <h2 id="_4">晶体二极管电路分析方法</h2>
 <h3 id="_5">图解法</h3>
 <p>看图求交点.没什么可说的.</p>
@@ -1017,7 +1063,7 @@ $$
 R_LC&gt;10T
 $$
 这样才能使得电压不突变.</p>
-<h3 id="3">3输入二极管与门和或门</h3>
+<h3 id="_11">三输入二极管与门和或门</h3>
 <p>记住结论：
 与门电路干路电位为电压最低的一端加上<span class="arithmatex">\(V_{Don}\)</span>，或门电路干路电位为电压最高的一端减去<span class="arithmatex">\(V_{Don}\)</span>.</p>
 
