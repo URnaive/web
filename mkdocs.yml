@@ -6,6 +6,7 @@ site_description: HibikiNJ的个人网站
 
 # 页面结构
 nav:
+  - index.md
   - 关于我:
     - ME/Self.md
   - 二次元:
