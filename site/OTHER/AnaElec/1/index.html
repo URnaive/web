@@ -620,6 +620,10 @@
       
         
       
+        
+      
+        
+      
     
     
     <li class="md-nav__item md-nav__item--active md-nav__item--nested">
@@ -816,6 +820,46 @@
 
               
             
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../4/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    模电笔记第二周1-晶体三极管（甲）
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../5/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    模电笔记第二周2-晶体三极管（乙）
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -933,8 +977,9 @@
 
 
 <h1 id="1-">模电笔记第一周1-半导体物理</h1>
-<pre><code>本笔记根据《电子线路 线性部分》第五版（冯军 谢嘉奎 主编）撰写，该书是东南大学模电课程选用教材。
-</code></pre>
+<blockquote>
+<p>本笔记根据《电子线路 线性部分》第五版（冯军 谢嘉奎 主编）撰写，该书是东南大学模电课程选用教材。</p>
+</blockquote>
 <h2 id="_1">本征半导体</h2>
 <p>由硅、锗等四价元素的单晶构成的半导体，天然具有半导体性质.
 元素通过价电子组成的共价键紧密相连，当温度上升/光照增强时，个别价电子拥有足够能量摆脱共价键，称为<strong>本征激发</strong>.
@@ -947,9 +992,9 @@ $$
 n_i=AT^{\frac{3}{2}}e^{\frac{-E_{g0}}{2kT}}
 $$
 （单位：<span class="arithmatex">\(\text{cm}^{-3}\)</span>）
-<span class="arithmatex">\(A\)</span>为常数（硅为<span class="arithmatex">\(3.88\times10^{16} \text{cm}^{-3}\cdot \text K^{-3/2}\)</span>，锗为<span class="arithmatex">\(1.76\times10^{16} \text{cm}^{-3}\cdot \text K^{-3/2}\)</span>）.
-<span class="arithmatex">\(k\)</span>为玻尔兹曼常数（<span class="arithmatex">\(8.63\times10^{-5}\text{eV/K或}1.38\times10^{-23}\text{J/K}\)</span>）.
-<span class="arithmatex">\(E_{g0}\)</span>为<span class="arithmatex">\(\text{T=0K}\)</span>时的禁带宽度，硅为<span class="arithmatex">\(\text{1.21eV}\)</span>，锗为<span class="arithmatex">\(\text{0.785eV}\)</span>.</p>
+<span class="arithmatex">\(A\)</span>为常数（硅为<span class="arithmatex">\(3.88\times10^{16} \text{cm}^{-3}\cdot \text K^{-3/2}\)</span>，锗为<span class="arithmatex">\(1.76\times10^{16} \text{cm}^{-3}\cdot \text K^{-3/2}\)</span>）.</p>
+<p><span class="arithmatex">\(k\)</span>为玻尔兹曼常数（<span class="arithmatex">\(8.63\times10^{-5}\text{eV/K或}1.38\times10^{-23}\text{J/K}\)</span>）.</p>
+<p><span class="arithmatex">\(E_{g0}\)</span>为<span class="arithmatex">\(\text{T=0K}\)</span>时的禁带宽度，硅为<span class="arithmatex">\(\text{1.21eV}\)</span>，锗为<span class="arithmatex">\(\text{0.785eV}\)</span>.</p>
 <p>室温（<span class="arithmatex">\(\text{T=300K||t=27℃}\)</span>）,硅的热平衡载流子浓度约为<span class="arithmatex">\(1.5\times10^{10} \text {cm}^{-3}\)</span>，锗为<span class="arithmatex">\(2.4\times10^{13} \text{cm}^{-3}\)</span>.</p>
 <p><span class="arithmatex">\(n_i\)</span>的公式表明温度、光强度与导电能力直接相关，因此可利用本征半导体制作热敏或光敏元件.</p>
 <h2 id="_3">杂质半导体</h2>
@@ -988,13 +1033,11 @@ J_{nt}=-(-q)n{\mu}_nE
 J_{t}=J_{pt}+J_{nt}=q(p{\mu}_p+n{\mu}_n)E
 $$
 (单位：<span class="arithmatex">\(\text A\cdot \text m^{-2}\)</span>)
-<span class="arithmatex">\(p\)</span>和<span class="arithmatex">\(n\)</span>分别为空穴和自由电子的浓度.
-<span class="arithmatex">\(q\)</span>为元电荷.
-<span class="arithmatex">\(E\)</span>为外加电场的电场强度.
-<span class="arithmatex">\(\mu\)</span>为空穴或自由电子的迁移率，单位为<span class="arithmatex">\(cm^2/\text{V}\cdot s\)</span>
-（室温下：
-硅：<span class="arithmatex">\({\mu}_n=1500\text{cm}^2/\text V\cdot \text s,{\mu}_p=600\text{cm}^2/\text V\cdot \text s\)</span>
-锗：<span class="arithmatex">\({\mu}_n=3900\text{cm}^2/\text V\cdot \text s,{\mu}_p=1900\text{cm}^2/\text V\cdot \text s\)</span>）</p>
+<span class="arithmatex">\(p\)</span>和<span class="arithmatex">\(n\)</span>分别为空穴和自由电子的浓度.</p>
+<p><span class="arithmatex">\(q\)</span>为元电荷.</p>
+<p><span class="arithmatex">\(E\)</span>为外加电场的电场强度.</p>
+<p><span class="arithmatex">\(\mu\)</span>为空穴或自由电子的迁移率，单位为<span class="arithmatex">\(cm^2/\text{V}\cdot s\)</span></p>
+<p>（室温下：硅：<span class="arithmatex">\({\mu}_n=1500\text{cm}^2/\text V\cdot \text s,{\mu}_p=600\text{cm}^2/\text V\cdot \text s\)</span> 锗：<span class="arithmatex">\({\mu}_n=3900\text{cm}^2/\text V\cdot \text s,{\mu}_p=1900\text{cm}^2/\text V\cdot \text s\)</span>）</p>
 <p>半导体材料呈现的电导率为：
 $$
 \sigma=\frac{1}{\rho}=\frac{J_t}{E}=q(p{\mu}_p+n{\mu}_n)
